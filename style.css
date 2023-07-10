@@ -1,0 +1,247 @@
+
+.first
+{
+    /* height: 900px; */
+    /* background-color: blueviolet; */
+    width: 100%;
+}
+  .working
+  {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -100dvh;
+    /* padding-left: 7cm; */
+    height: 130px;
+    text-align: center;
+    color: rgb(8, 73, 131);
+  }
+  
+ .imagee{
+    margin-bottom: -90px;
+}
+ .container
+ {
+    color: aliceblue;
+    /* height: 90px; */
+ } 
+  .smooth
+  {
+    padding-top :2cm; 
+    background-color:  rgb(255, 255, 255); 
+    height: 130px;
+    text-align: center;
+    color: rgb(83, 9, 9);
+    font: -webkit-small-control;
+  }
+/* .our-collection
+{
+
+   ckground-color: rgb(73, 11, 131); ba
+} */
+.card-title
+{
+    color: rgb(100, 20, 20);
+    font-weight: 800;
+}
+.card-title:hover
+{
+    color: rgb(209, 0, 146);
+}
+.container {
+  max-width: 1138px;
+  /* height: 100%; */
+  background-color: rgb(248, 242, 247);
+}
+.box
+{
+  transition: 0.80s;
+}
+.box:hover
+{
+  transform: scale(1.1);
+}
+/*brownimage*/
+.image-container {
+  position: relative;
+}
+
+.image-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 14px;
+  z-index: 1;
+  padding-bottom: 300px;
+  font-weight: 900;
+}
+.image-headingg
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  z-index: 1;
+  padding-bottom: 100px;
+  /* font-size: 5.6rem; */
+    line-height: 5.6rem;
+    font-family: var(--v-heading-font);
+    font-weight: bold;
+    /* letter-spacing: var(--v-heading-font-t-letter-spacing); */
+}
+
+.image-headinggg
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 21px;
+  z-index: 1;
+  padding-top: 200px;
+  font-family: var(--v-secondary-font);
+  
+    line-height: 3.52rem;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.overlay button {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(199, 8, 87);
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+}
+.overlay button:hover
+{
+  color: rgb(230, 9, 101);
+  background-color: rgb(255, 255, 255);
+}
+ /* .wrapper
+
+{
+  max-width: 98%;
+  position: relative;
+}
+.wrapper i{
+  background: #fff;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.wrapper i:first-child
+{
+  left: 8px;
+
+}
+.wrapper i:last-child
+{
+  right: -23px;
+  
+}
+.wrapper.carousel
+{
+   white-space: nowrap;
+  overflow: hidden;
+}
+.carousel img{
+height: 240px;
+    width: 189px;
+    object-fit: cover;
+    margin-left: 64px;
+}
+.carousel img:first-child
+{
+  margin-left: 64px;
+}
+@media screen and(max-width:900px)
+{
+  .carousel img{
+width: calc(100/2);
+  }
+}
+@media screen and(max-width:550px)
+{
+  .carousel img{
+width: 100%;
+  }
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* .carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 100%;
+} */
+
+
+.cell
+{
+  width: 20%;
+  height: 350px;
+  margin: 0 15px;
+  overflow: hidden;
+}
+.cell img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.social-icon {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px;
+}
+.footer {
+  background-color: brown;
+  color: rgb(117, 23, 180);
+  /* padding: 20px; */
+}
+
+.social-icons {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.col-md-6 ul.text {
+  list-style: none;
+
+}
+
+.col-md-6 ul.text li {
+  text-decoration: none;
+ 
+}
